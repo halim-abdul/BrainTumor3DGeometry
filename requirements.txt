@@ -1,0 +1,12 @@
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+matplotlib>=3.8
+scikit-image>=0.22
+scikit-learn>=1.4
+torch>=2.2
+networkx>=3.2
+imageio>=2.34
+pytest>=8
+PyYAML>=6
+nibabel>=5.2
