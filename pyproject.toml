@@ -1,0 +1,12 @@
+[build-system]
+requires=["setuptools>=68"]
+build-backend="setuptools.build_meta"
+
+[project]
+name="neurogeo-tumor"
+version="0.1.0"
+description="Applied mathematics for brain tumor geometry from multimodal MRI"
+requires-python=">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath=["src"]
