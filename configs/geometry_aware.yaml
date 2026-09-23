@@ -1,0 +1,11 @@
+experiment: geometry_aware
+seed: 11711
+loss_weights:
+  dice: 1.0
+  bce: 0.5
+  boundary: 0.2
+  topology: 0.1
+  tv: 0.01
+postprocess:
+  keep_largest_component: false
+  reconstruct_mesh: true
