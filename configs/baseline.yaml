@@ -1,0 +1,9 @@
+experiment: baseline_3d_unet
+seed: 11711
+modalities: [t1, t1ce, t2, flair]
+patch_size: [96,96,96]
+optimizer: adamw
+lr: 0.0002
+weight_decay: 0.00001
+epochs: 200
+loss: bce_dice
