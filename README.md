@@ -36,8 +36,6 @@ H --> K[HD95/ASSD/surface Dice]
 I --> L[3D position + size report]
 ```
 
-![Pipeline](figures/pipeline/research_pipeline.png)
-
 ## What is measured?
 - **Overlap:** Dice, IoU/Jaccard
 - **Detection:** sensitivity/recall, specificity, precision
@@ -70,13 +68,8 @@ pytest -q
 ## Dataset strategy
 The repository does not redistribute patient MRI. Use official BraTS access or another appropriately licensed dataset. A synthetic 3D phantom generator is included for unit tests, tutorials and CI.
 
-## Demo outputs
-![Synthetic multimodal MRI](figures/mri/synthetic_multimodal_mri.png)
-![Training curves](figures/curves/training_curves.png)
-![Metric dashboard](figures/curves/metric_dashboard.png)
-![3D tumor](figures/3d/tumor_surface.png)
-
-Animated reconstruction: [figures/3d/brain_tumor_rotation.gif](figures/3d/brain_tumor_rotation.gif)
+## Generated visual outputs
+The pipeline generates multimodal MRI panels, training/validation metric curves, radial shape histograms, 3D tumor surfaces, tumor-within-brain views and an animated 3D reconstruction. See `figures/README.md` for the reproducible asset inventory.
 
 ## Research branches
 Ten research branches are included in the git history, each isolating one line of investigation. See `docs/BRANCH_STRATEGY.md`.
