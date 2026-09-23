@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "BrainTumor Geometry: An Applied Mathematics Research Project"
+message: "If you use this software, please cite the repository release."
+type: software
+authors:
+  - family-names: "Halim"
+    given-names: "Abdul"
+year: 2026
+license: MIT
