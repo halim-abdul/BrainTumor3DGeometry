@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+outputs/
+data/raw/
+data/private/
+*.nii
+*.nii.gz
+.DS_Store
